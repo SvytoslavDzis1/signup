@@ -1,0 +1,9 @@
+.auth__form-gender label {
+	cursor: pointer;
+	position: relative;
+	padding-left: 6px;
+	margin-right: 0;
+	user-select: none;
+}
+
+

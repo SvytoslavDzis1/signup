@@ -1,0 +1,9 @@
+.auth__form-day{
+    width: 56px;
+    height: 23px;
+    border: none;
+    border-bottom: 0.7px solid #F2F2F2;
+    display: block;
+    background: unset;
+}
+

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Document</title>
+</head>
+
+<body class="body">
+  <div class="root">
+    <header class="header">
+      <h1 class="header__title">
+                Sign up
+            </h1>
+    </header>
+    <section class="auth">
+      <h2 class="auth__title">New user?</h2>
+      <p class="auth__text">Use the form below to create your account.</p>
+      <form class="auth__form">
+        <div class="auth__form-blocks">
+          <div class="auth__form-block">
+            <label for="First" class="auth__form-label">First Name</label>
+            <input type="text" class="auth__form-input" name="First">
+          </div>
+          <div class="auth__form-block">
+            <label for="Last" class="auth__form-label">Last Name</label>
+            <input type="text" class="auth__form-input" name="Last">
+          </div>
+          <div class="auth__form-block">
+            <label for="Nationality" class="auth__form-label">Nationality</label>
+            <select name="Nationality" id="" class="auth__form-input">
+              <option value="1">Russian</option>
+              <option value="2">American</option>
+              <option value="3">Chinese</option>
+              <option value="4">Japanese</option>
+            </select>
+          </div>
+          <div class="auth__form-block">
+            <label for="E-mail" class="auth__form-label">E-mail</label>
+            <input type="text" class="auth__form-input" name="E-mail">
+          </div>
+          <div class="auth__form-block">
+            <label for="Date" class="auth__form-label">Date of Birth</label>
+            <div class="auth__form-date">
+              <select name="Date" id="" class="auth__form-day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+              </select>
+              <select name="Date" id="" class="auth__form-manth">
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+              </select>
+              <select name="Date" id="" class="auth__form-year">
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+              </select>
+            </div>
+          </div>
+          <div class="auth__form-block">
+            <label class="auth__form-label">Gender</label>
+            <div class="auth__form-gender">
+              <input type="radio" name="radio" id="Male" class="auth__form-radio auth_form-radio" checked>
+              <label for="Male">Male</label>
+              <input type="radio" name="radio" id="Female" class="auth__form-radio auth_form-radio">
+              <label for="Female">Female</label>
+            </div>
+          </div>
+          <div class="auth__form-block">
+            <label for="Password" class="auth__form-label">Password</label>
+            <input type="password" class="auth__form-input" name="Password" maxlength="8">
+          </div>
+          <div class="auth__form-block">
+            <label for="Confirm" class="auth__form-label">Confirm Password</label>
+            <input type="password" class="auth__form-input" name="Confirm" minlength="8">
+          </div>
+        </div>
+        <div class="auth__form-button">
+          <p class="auth__form-button-text">
+            Have an account? <a href="#" class="auth__form-button-url">Login</a>
+          </p>
+          <button type="submit" class="button">Complete Signup</button>
+        </div>
+      </form>
+    </section>
+  </div>
+</body>
+
+</html>

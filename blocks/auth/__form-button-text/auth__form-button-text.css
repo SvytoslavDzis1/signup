@@ -1,0 +1,12 @@
+.auth__form-button-text{
+    margin: 11px 0 11px 0;
+    font-size: 13px;
+    line-height: 15.25px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 328px) {
+    .auth__form-button-text{
+        max-width: 140px;
+    }
+}

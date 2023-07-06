@@ -1,0 +1,16 @@
+.auth{
+    width: 528px;
+    padding: 39px 22px 33px 158px;
+    background-image: url(./../../images/2.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 740px) {
+    .auth{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,16 @@
+.header__title{
+    font-family: 'PTSans', Arial, Helvetica, sans-serif;
+    color: #fff;
+    line-height: 63.41px;
+    font-size: 49px;
+    letter-spacing: 0.5px;
+    padding: 68.5px 0 6.5px 22.5px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@media screen and (max-width: 740px) {
+    .header__title{
+        padding: 0;
+    }
+}
